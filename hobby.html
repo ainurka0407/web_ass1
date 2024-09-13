@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: #eac9c9; /* Soft pink background */
+        }
+        h1{
+            color: #f8b1b1; /* Pastel pink header */
+            font-size: 64px;
+            text-align: center;
+        }
+        .hobby{
+            width:100%;
+            overflow: auto;
+            color: #f4a2ae; /* Soft peach color */
+            border: 2px #ffc5c5; /* Pastel pink border */
+            margin: 20px;
+            padding: 20px;
+            text-align: center; /* Add this line */
+        }
+        .hobby div{
+            width: 33%;
+            float: left;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-bottom: 30px;
+        }
+        .hobby div img{
+            width:auto;
+            height: 200px;
+            border-radius: 10%;
+            margin: 10px;
+            align-items: center;
+            margin-right: 10px;
+        }
+        .contact, .home {
+            background-color: #ffc5c5;
+            color: #ffffff;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            display: inline-block;
+        }
+        .hobby a{
+            display: inline-block;
+            margin: 0;
+        }
+    </style>
+</head>
+<body>
+    <h1>My hobbies</h1>
+    <div class="hobby">
+        <div>
+            <img src="images/films.jpg">
+            Watching films
+        </div>
+        <div>
+            <img src="images/makeup.jpg">
+            Doing Make-up
+        </div>
+        <div>
+            <img src="images/take-photo.jpg">
+            Taking Photos
+        </div>
+        <a href="home.html">
+            <button class="home">Home page</button>
+        </a>
+        <a href="contact.html">
+            <button class="contact">Contact me</button>
+        </a>
+    </div>
+</body>
+</html>

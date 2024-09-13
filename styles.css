@@ -1,0 +1,54 @@
+body {
+    background-color: #ffe6e6; /* Soft pink background */
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+h1 {
+    color: #d98d8d; /* Pastel pink header */
+    font-size: 60px;
+    letter-spacing: 8px;
+    margin-bottom: 0px;
+    margin-top: 5px;
+    text-align: center;
+}
+
+h2 {
+    color: #964B00; /* Warm brown color */
+    font-size: 26px;
+    text-align: center;
+    margin-top: -10px;
+}
+
+.photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.photo img{
+    width: auto;
+    height: 200px;
+    border-radius: 50%;
+}
+
+p{
+    font-size: 16px;
+    color: #455A64; /* Dark grey-blue color */
+    text-align: center;
+    
+}
+
+.button-container {
+    text-align: center;
+    margin-top: 30px;
+}
+
+.contact, .hobby {
+    background-color: #ffc5c5; /* Pastel pink button background */
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
